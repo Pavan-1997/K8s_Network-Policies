@@ -6,7 +6,7 @@ Kindnet is the Default CNI for KIND K8s setup
 
 1. Create a Kind Cluster with Disabling the Deault CNI - kindnet using the config file as `kind-cluster-nodes-no-cni.yml`
 
-2. Installing the CNI Addon for Weave Net
+2. Installing the CNI Addon for Weave Net (Old) Use Calico for latest
 ```
 kubectl apply -f https://github.com/weaveworks/weave/releases/download/v2.8.1/weave-daemonset-k8s.yaml
 ```
